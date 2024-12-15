@@ -40,7 +40,10 @@ Ensure you have Python and PIP working.
 In the command line, install the required packages using the following command (run the command in the same directory as the script):
 
 ```bash
+rm -rf .venv
+python3 -m venv .venv
 source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ```bash
